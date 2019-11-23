@@ -9,7 +9,7 @@ import sys
 import roslib
 import rospy
 import actionlib
-from speech_recog_service.msg import *
+from gcp_speech_recognition.msg import *
 #<<---------------------
 # #goal definition
 # ---
@@ -102,8 +102,8 @@ class ResumableMicrophoneStream:
 
 class CallApi(object):
 
-    _feedback = speech_recog_service.msg.SpeechRecogFeedback()
-    _result   = speech_recog_service.msg.SpeechRecogResult()
+    _feedback = gcp_speech_recognition.msg.SpeechRecogFeedback()
+    _result   = gcp_speech_recognition.msg.SpeechRecogResult()
 
     def __init__(self):
         rospy.init_node('gcp_speech_recognition')
