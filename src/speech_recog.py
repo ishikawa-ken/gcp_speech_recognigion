@@ -12,7 +12,6 @@ import actionlib
 from speech_recog_service.msg import *
 #<<---------------------
 # #goal definition
-# int32 timeout_sec
 # ---
 # #result definition
 # string recog_result
