@@ -10,7 +10,7 @@ from google.cloud import speech
 
 import roslib
 import rospy
-from gcp_speech_recognition.srv import SpeechRecog
+from gcp_speech_recognition.srv import SpeechRecog, SpeechRecogResponse
 
 SAMPLE_RATE = 16000
 CHUNK_SIZE = int(SAMPLE_RATE / 10)  # 100ms
