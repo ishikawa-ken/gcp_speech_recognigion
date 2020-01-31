@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="gcp_speech_recognition" name="gcp_speech_recognition" type="stt_srvserver.py" output="screen" />
+</launch>
